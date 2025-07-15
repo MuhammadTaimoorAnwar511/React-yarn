@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+# COMMANDS TO RUN THIS PROJECT
+
+### `yarn install`
+### `yarn build`
+### `pm2 start "serve -s build -l 3001" --name "react-yarn"`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
