@@ -5,7 +5,7 @@
 ### `yarn install`
 ### `yarn build`
 ### `pm2 start "serve -s build -l 3001" --name "react-yarn"`
-### `docker build -t <image name> .`
+### `docker buildx build -t <image name> .`
 ### `docker run -d -p <host port>:<container port> --name <container name> <image name>`
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
